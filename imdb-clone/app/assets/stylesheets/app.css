@@ -12,8 +12,11 @@ body{
   margin-bottom: 100px;
 }
 
-#search-header{
+#search{
   font-family:"Georgia";
+  font-size:14px;
+  width: 500px;
+  height: 30px;
 }
 
 #poster{
