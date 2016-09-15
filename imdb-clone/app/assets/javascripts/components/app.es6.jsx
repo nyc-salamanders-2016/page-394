@@ -2,17 +2,27 @@ class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      movies: [];
+      movies: []
     }
+    this.displaySearchedTitles = this.displaySearchedTitles.bind(this)
   }
 
+  displaySearchedTitles(searchedTitles) {
+    this.setState({
+      movies: searchedTitles
+    })
+  }
 
   render(){
     return(
-      <div class="container">
-        <SearchBar />
+      <div className="container">
+        <header>
+          <SearchBar onSearch={this.displaySearchedTitles} />
+        </header>
 
-        <DisplayContainer />
+        <div>
+          <DisplayContainer movies={this.state.movies} />
+        </div>
       </div>
     )
   }
