@@ -7,9 +7,25 @@ body{
   font-family: "Georgia";
 }
 
+#title{
+  font-family: "Georgia";
+}
+
 #search-bar{
   text-align: center;
   margin-bottom: 100px;
+}
+
+.extra-info-stats {
+  list-style: none;
+}
+
+.extra-info-stats li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 3px;
+  border: 1px gray dotted;
+  margin:1px;
 }
 
 #search{
