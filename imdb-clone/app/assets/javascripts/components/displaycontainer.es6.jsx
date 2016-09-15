@@ -1,6 +1,5 @@
 class DisplayContainer extends React.Component{
   render(){
-    // debugger;
     return(
       <section id="movie-result">
         <ul>

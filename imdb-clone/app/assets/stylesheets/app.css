@@ -19,9 +19,15 @@ body{
   height: 30px;
 }
 
+.movie-overview {
+  list-style: none;
+  margin: 100px;
+  /*border: 1px gray dotted;*/
+}
+
 #poster{
   float: left;
   margin-right:25px;
-  width: 150px;
-  height:222px;
+  width: 75px;
+  height:111px;
 }
