@@ -48,7 +48,7 @@ class MovieDisplay extends React.Component{
   render(){
     return(
       <li onClick={this.toggleDetails} className="movie-overview">
-        { this.props.data.Poster !== "N/A" ? <img id="poster" src={this.props.data.Poster} /> : null }
+        { this.props.data.Poster !== "N/A" ? <img id="poster" src={this.props.data.Poster} /> : <img id="poster" src="https://www.picturengine.com/assets/img/imageNotFound.jpg" /> }
         <p id="title">{this.props.data.Title} ({this.props.data.Year})</p>
         {this.displayDetails()}
       </li>
