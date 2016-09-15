@@ -1,4 +1,4 @@
-class displayContainer extends React.Component{
+class DisplayContainer extends React.Component{
   render(){
     hpMovies = [
       {title: "Harry Potter and the Deathly Hallows: Part 2", year: "2011", poster: "http://ia.media-imdb.com/images/M/MV5BMTY2MTk3MDQ1N15BMl5BanBnXkFtZTcwMzI4NzA2NQ@@._V1_SX300.jpg"},
